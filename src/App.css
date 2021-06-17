@@ -256,6 +256,10 @@ img{
 .nav__logo span{
   color: rgb(55, 252, 6);
 }
+.nav__logo{
+  font-size: 1.1rem;
+  font-weight: var(--font-semi-bold);
+}
 
 @media screen and (max-width: 768px) {
   .nav__menu{
@@ -784,6 +788,9 @@ div.MuiFormControl-fullWidth {
 }
 .nav__menu{
   margin-left: auto;
+}
+.nav__logo{
+  font-size: 1.3rem;
 }
 .change-theme{
   margin: 0;
