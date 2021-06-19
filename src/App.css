@@ -1,5 +1,5 @@
 :root{
-  --header-height: 3rem;
+  --header-height: 4rem;
 
   /* Colors */
   /* Change favorite color */
@@ -219,7 +219,7 @@ img{
 .header{
   width: 100%;
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
@@ -264,18 +264,18 @@ img{
 @media screen and (max-width: 768px) {
   .nav__menu{
     position: fixed;
-    bottom: -100%;
+    top: -50%;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0,0,0,.15);
-    border-radius: 1.5rem 1.5rem 0 0;
+    /* box-shadow: 0 -1px 4px rgba(0,0,0,.15); */
+    border-radius: 0 0 1.5rem 1.5rem;
     transition: .3s;
-    -webkit-border-radius: 1.5rem 1.5rem 0 0;
-    -moz-border-radius: 1.5rem 1.5rem 0 0;
-    -ms-border-radius: 1.5rem 1.5rem 0 0;
-    -o-border-radius: 1.5rem 1.5rem 0 0;
+    -webkit-border-radius: 0 0 1.5rem 1.5rem;
+    -moz-border-radius: 0 0 1.5rem 1.5rem;
+    -ms-border-radius: 0 0 1.5rem 1.5rem;
+    -o-border-radius: 0 0 1.5rem 1.5rem;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -ms-transition: .3s;
@@ -319,7 +319,7 @@ img{
 
 /* show menu */
 .show-menu {
-  bottom: 0;
+  top: 7.8%;
   transition: ease-in .1s;
   -webkit-transition: ease-in .1s;
   -moz-transition: ease-in .1s;

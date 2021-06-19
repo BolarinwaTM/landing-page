@@ -358,7 +358,7 @@ function App() {
               <input type="email" className="input" placeholder="Enter Your Email Address Here" />
             </div>
             <div className="msg">
-            <button className="btn">Notify Me</button>
+            <button onClick={handleSubmit} type="submit" className="btn">Notify Me</button>
             </div>
           </div>
         </div>
