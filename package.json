@@ -1,8 +1,8 @@
 {
   "homepage": "http://BolarinwaTM.github.io/landing-page",
-  "name": "delivery-booth",
+  "name": "landing-page",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.6",
     "@iconscout/react-unicons-solid": "^0.0.3",
@@ -36,7 +36,7 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
+      "not ie <= 11",
       "not op_mini all"
     ],
     "development": [
